@@ -1,0 +1,18 @@
+
+    <div class="card" style="width: 69rem;" >
+      <div class="card-body"
+      >
+         <!-- <h5 class="card-title">{{element.name}}</h5> -->
+         <h5 class="card-title">{{name}}</h5>
+        <p class="card-text">
+          <!-- <strong *ngIf="element.type==='server'" style="color: red" >
+            {{element.content}}
+          </strong>
+          <i *ngIf="element.type==='blueprint'">
+            {{element.content}}
+          </i> -->
+          <ng-content></ng-content>
+
+          </p>
+      </div>
+    </div>
